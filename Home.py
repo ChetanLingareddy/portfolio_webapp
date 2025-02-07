@@ -9,15 +9,17 @@ with col1:
 
 with col2:
     st.title("Chetan Lingareddy")
-    content = """
+    About = """
     I am a master's Student in computer science from university of central missouri.
     """
-    st.info(content)
+    st.info(About)
 
-content2= """
-below are some web apps i have created using python , please feel free to contact me!
+
+
+Projects= """
+Below are some web applications , I have created using python along with their source codes.
 """
-st.caption(content2)
+st.caption(Projects)
 
 col3,empty_col, col4 = st.columns([1.5,0.5,1.5])
 
